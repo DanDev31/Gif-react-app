@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+    width: 100%;
+    height: 25rem;
+}
+
+input{
+    width: 100%;
+    font-size: 1.2rem; 
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 600;
+    
+}
+
+ol{
+    margin: 0 auto;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1250px;
+}
+
+.app__title{
+    color: royalblue;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.category__title{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.gif__input{
+    margin-bottom: 2rem;
+    padding: .5rem;
+}
+
+.gif__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.gif__card{
+    border: 1px solid gray;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
